@@ -1,0 +1,53 @@
+* {
+  text-decoration: none;
+  list-style: none;
+  font-family:   Verdana, sans-serif;
+  // border: 1px solid red;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: black;
+  // font-family: sans-serif;
+}
+
+ul,
+ol {
+  padding: 0 !important;
+}
+
+.v-btn {
+	text-transform: initial !important;
+}
+
+.v-pagination__item.v-pagination__item--is-active {
+  button {
+
+    background: rgb(var(--v-theme-primary)) !important;
+    font-weight: 700;
+    span {
+      color: white !important;
+
+    }
+  }
+}
+
+
+
+
+
+html {
+  font-size: 14px;
+}
+
+
+@media screen and (min-width: $md) {
+  html {
+    font-size: 16px;
+  }
+}
+@media screen and (min-width: $lg) {
+  html {
+    font-size: 16px;
+  }
+
+}
